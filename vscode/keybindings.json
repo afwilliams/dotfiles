@@ -1,0 +1,53 @@
+// Place your key bindings in this file to override the defaults
+[
+  {
+    "key": "alt+1",
+    "command": "workbench.action.focusSideBar"
+  },
+  {
+    "key": "alt+1",
+    "command": "workbench.action.toggleSidebarVisibility",
+    "when": "sideBarFocus"
+  },
+  {
+    "key": "enter",
+    "command": "list.select",
+    "when": "sideBarFocus"
+  },
+  {
+    "key": "alt+shift+1",
+    "command": "workbench.action.toggleActivityBarVisibility"
+  },
+  {
+    "key": "ctrl+d",
+    "command": "editor.action.copyLinesDownAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "alt+f12",
+    "command": "workbench.action.terminal.toggleTerminal"
+  },
+  {
+    "key": "alt+,",
+    "command": "workbench.action.toggleStatusbarVisibility"
+  },
+  {
+    "key": "escape",
+    "command": "workbench.action.focusActiveEditorGroup",
+    "when": "!editorTextFocus"
+  },
+  {
+    "key": "alt+n",
+    "command": "explorer.newFile",
+    "when": "explorerViewletFocus"
+  },
+  {
+    "key": "alt+shift+f",
+    "command": "explorer.newFolder",
+    "when": "explorerViewletFocus"
+  },
+  {
+    "key": "alt+e",
+    "command": "workbench.action.showAllEditorsByMostRecentlyUsed"
+  }
+]
